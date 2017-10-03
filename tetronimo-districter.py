@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import random
 import sys
 import math
@@ -12,7 +13,7 @@ class field:
     def generate (self, x, y):
         if 0 <=  x < self.w and 0 <= y < self.h:
             if self.table[x][y] == "u":
-                if random.random() > .3 or x == y == 0:
+                if random.random() > -1 or x == y == 0:
                     self.table[x][y]="X"
                     self.generate(x, y + 1)
                     self.generate(x, y - 1)
@@ -33,8 +34,9 @@ class field:
         return self.table
     def __str__ (self):
         string = "\n"
-        for col in self.table:
-            for space in col:
+        for y in range (self.h):
+            for x in range (self.w):
+                space = self.table[x][y]
                 if space == "u":
                     space = " "
                 string = string + space
@@ -55,7 +57,7 @@ def makeGraph (f):
     table = f.getTable()
     for y in range (f.hieght()):
         for x in range (f.width()):
-            if table[y][x] == "X":
+            if table[x][y] == "X":
                 graph[(x, y)] = []
                 for i in [-1, 1]:
                     if 0 <= x + i < f.w and table[x + i] [y] == "X":
@@ -64,9 +66,31 @@ def makeGraph (f):
                         graph[(x,y)].append((x, y + i))
     return graph
 
+def makeDistricts (graph, size):
+    districts =[]
+    for x,y in graph.keys():
+        dHelp(graph, size, districts, [], x, y)
+    return districts
 
+def dHelp (graph, size, districts, district, x, y):
+    if size == 1:
+        print (district)
+        district.append((x,y))
+        districts.append(district.copy())
+        district.pop()
+    else:
+        district.append((x,y))
+        for neighbor in graph.get((x, y), []):
+            if neighbor[0] >= x and neighbor[1] >= y:
+                dHelp(graph, size - 1, districts, district, neighbor[0], neighbor[1])
+        district.pop()
 
-f = field(10, 10)
-print (sorted(list(makeGraph(f).items())))
-
+f = field(5, 5)
+g = makeGraph(f)
+d = makeDistricts (g, 3) 
 print (f)
+#print (g)
+print (len(d))
+#for l in d:
+#    print (l)
+
