@@ -79,14 +79,11 @@ def dHelp (graph, size, districts, unusable, district, x, y):
         district.add((x,y))
         print (district)
         districts.add(frozenset(district))
-        #if district not in districts:
-        #    districts.add(frozenset(district))
         district.remove((x,y))
     else:
         district.add((x,y))
         for neighbor in graph.get((x, y), []):
             if neighbor not in district and neighbor not in unusable:
-                #print (neighbor, unusable)
                 dHelp(graph, size - 1, districts, unusable, district, neighbor[0], neighbor[1])
         district.remove((x, y))
 
