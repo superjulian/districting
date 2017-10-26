@@ -67,30 +67,47 @@ def makeGraph (f):
     return graph
 
 def makeDistricts (graph, size):
-    districts =[]
+    districts =set()
+    unusable = set()
     for x,y in graph.keys():
-        dHelp(graph, size, districts, [], x, y)
+        dHelp(graph, size, districts, unusable, set(), x, y)
+        unusable.add((x,y))
     return districts
 
-def dHelp (graph, size, districts, district, x, y):
+def dHelp (graph, size, districts, unusable, district, x, y):
     if size == 1:
+        district.add((x,y))
         print (district)
-        district.append((x,y))
-        districts.append(district.copy())
-        district.pop()
+        districts.add(frozenset(district))
+        #if district not in districts:
+        #    districts.add(frozenset(district))
+        district.remove((x,y))
     else:
-        district.append((x,y))
+        district.add((x,y))
         for neighbor in graph.get((x, y), []):
-            if neighbor[0] >= x and neighbor[1] >= y:
-                dHelp(graph, size - 1, districts, district, neighbor[0], neighbor[1])
-        district.pop()
+            if neighbor not in district and neighbor not in unusable:
+                #print (neighbor, unusable)
+                dHelp(graph, size - 1, districts, unusable, district, neighbor[0], neighbor[1])
+        district.remove((x, y))
 
-f = field(5, 5)
+def cost (graph, district):
+    def costHelp (center):
+        s = 0
+        for square in district:
+            s += mDist(center, square)
+        return s
+
+    min (district, key = lambda c : cost(c))
+
+
+
+f = field(2, 2)
 g = makeGraph(f)
-d = makeDistricts (g, 3) 
+d = makeDistricts (g, 4) 
 print (f)
 #print (g)
-print (len(d))
+print (d)
+
 #for l in d:
 #    print (l)
 
