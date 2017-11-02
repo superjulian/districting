@@ -114,3 +114,423 @@ Solution count 2: 113.45 -0
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.134500000000e+02, best bound 1.134600000000e+02, gap 0.0088%
+
+Gurobi 7.5.1 (linux64) logging started Thu Oct 26 14:02:10 2017
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 7.5.1 build v7.5.1rc0 (linux64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Warning: unknown variable 'd139694305436616end' in integer section
+Read LP format model from file ./districts.lp
+Reading time = 0.00 seconds
+: 25 rows, 519 columns, 3108 nonzeros
+Optimize a model with 25 rows, 519 columns and 3108 nonzeros
+Variable types: 1 continuous, 518 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [7e+00, 9e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 286 columns
+Presolve time: 0.03s
+Presolved: 25 rows, 233 columns, 1398 nonzeros
+Variable types: 0 continuous, 233 integer (233 binary)
+
+Root relaxation: infeasible, 40 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 0 nodes (40 simplex iterations) in 0.03 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 7.5.1 (linux64) logging started Thu Oct 26 14:02:24 2017
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 7.5.1 build v7.5.1rc0 (linux64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Warning: unknown variable 'd140553619018696end' in integer section
+Read LP format model from file ./districts.lp
+Reading time = 0.00 seconds
+: 25 rows, 519 columns, 3108 nonzeros
+Optimize a model with 25 rows, 519 columns and 3108 nonzeros
+Variable types: 1 continuous, 518 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [7e+00, 9e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 286 columns
+Presolve time: 0.02s
+Presolved: 25 rows, 233 columns, 1398 nonzeros
+Variable types: 0 continuous, 233 integer (233 binary)
+
+Root relaxation: infeasible, 40 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 0 nodes (40 simplex iterations) in 0.03 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 7.5.1 (linux64) logging started Thu Oct 26 14:03:21 2017
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 7.5.1 build v7.5.1rc0 (linux64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ./districts.lp
+Reading time = 0.00 seconds
+: 25 rows, 518 columns, 3108 nonzeros
+Optimize a model with 25 rows, 518 columns and 3108 nonzeros
+Variable types: 0 continuous, 518 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [7e+00, 9e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 286 columns
+Presolve time: 0.03s
+Presolved: 25 rows, 232 columns, 1392 nonzeros
+Variable types: 0 continuous, 232 integer (232 binary)
+
+Root relaxation: infeasible, 38 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 0 nodes (38 simplex iterations) in 0.03 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 7.5.1 (linux64) logging started Thu Oct 26 14:04:54 2017
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 7.5.1 build v7.5.1rc0 (linux64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ./districts.lp
+Reading time = 0.00 seconds
+: 25 rows, 518 columns, 3108 nonzeros
+Optimize a model with 25 rows, 518 columns and 3108 nonzeros
+Variable types: 0 continuous, 518 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [7e+00, 9e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 286 columns
+Presolve time: 0.02s
+Presolved: 25 rows, 232 columns, 1392 nonzeros
+Variable types: 0 continuous, 232 integer (232 binary)
+
+Root relaxation: infeasible, 38 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 0 nodes (38 simplex iterations) in 0.03 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 7.5.1 (linux64) logging started Thu Oct 26 14:05:28 2017
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 7.5.1 build v7.5.1rc0 (linux64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ./districts.lp
+Reading time = 0.00 seconds
+: 16 rows, 71 columns, 284 nonzeros
+Optimize a model with 16 rows, 71 columns and 284 nonzeros
+Variable types: 0 continuous, 71 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 16
+Presolve removed 0 rows and 22 columns
+Presolve time: 0.00s
+Presolved: 16 rows, 49 columns, 196 nonzeros
+Variable types: 0 continuous, 49 integer (49 binary)
+
+Root relaxation: cutoff, 19 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0     cutoff    0        16.00000   16.00000  0.00%     -    0s
+
+Explored 0 nodes (19 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 16 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.600000000000e+01, best bound 1.600000000000e+01, gap 0.0000%
+
+Wrote result file 'dist.sol'
+
+
+Gurobi 7.5.1 (linux64) logging started Thu Oct 26 14:13:04 2017
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 7.5.1 build v7.5.1rc0 (linux64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ./districts.lp
+Reading time = 0.00 seconds
+: 16 rows, 71 columns, 284 nonzeros
+Optimize a model with 16 rows, 71 columns and 284 nonzeros
+Variable types: 0 continuous, 71 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 16
+Presolve removed 0 rows and 22 columns
+Presolve time: 0.01s
+Presolved: 16 rows, 49 columns, 196 nonzeros
+Variable types: 0 continuous, 49 integer (49 binary)
+
+Root relaxation: cutoff, 19 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0     cutoff    0        16.00000   16.00000  0.00%     -    0s
+
+Explored 0 nodes (19 simplex iterations) in 0.01 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 16 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.600000000000e+01, best bound 1.600000000000e+01, gap 0.0000%
+
+Wrote result file 'dist.sol'
+
+
+Gurobi 7.5.1 (linux64) logging started Thu Oct 26 14:15:42 2017
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 7.5.1 build v7.5.1rc0 (linux64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ./districts.lp
+Reading time = 0.00 seconds
+: 16 rows, 71 columns, 284 nonzeros
+Optimize a model with 16 rows, 71 columns and 284 nonzeros
+Variable types: 0 continuous, 71 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 16
+Presolve removed 0 rows and 22 columns
+Presolve time: 0.00s
+Presolved: 16 rows, 49 columns, 196 nonzeros
+Variable types: 0 continuous, 49 integer (49 binary)
+
+Root relaxation: cutoff, 19 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0     cutoff    0        16.00000   16.00000  0.00%     -    0s
+
+Explored 0 nodes (19 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 16 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.600000000000e+01, best bound 1.600000000000e+01, gap 0.0000%
+
+Wrote result file 'dist.sol'
+
+
+Gurobi 7.5.1 (linux64) logging started Thu Oct 26 14:19:38 2017
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 7.5.1 build v7.5.1rc0 (linux64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ./districts.lp
+Reading time = 0.00 seconds
+: 16 rows, 71 columns, 284 nonzeros
+Optimize a model with 16 rows, 71 columns and 284 nonzeros
+Variable types: 0 continuous, 71 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 16
+Presolve removed 0 rows and 22 columns
+Presolve time: 0.00s
+Presolved: 16 rows, 49 columns, 196 nonzeros
+Variable types: 0 continuous, 49 integer (49 binary)
+
+Root relaxation: cutoff, 19 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0     cutoff    0        16.00000   16.00000  0.00%     -    0s
+
+Explored 0 nodes (19 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 16 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.600000000000e+01, best bound 1.600000000000e+01, gap 0.0000%
+
+Wrote result file 'dist.sol'
+
+
+Gurobi 7.5.1 (linux64) logging started Thu Oct 26 14:19:55 2017
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 7.5.1 build v7.5.1rc0 (linux64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ./districts.lp
+Reading time = 0.21 seconds
+: 81 rows, 41650 columns, 374850 nonzeros
+Optimize a model with 81 rows, 41650 columns and 374850 nonzeros
+Variable types: 0 continuous, 41650 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+01, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve time: 0.39s
+Presolved: 81 rows, 41650 columns, 374850 nonzeros
+Variable types: 0 continuous, 41650 integer (41650 binary)
+
+Root relaxation: objective 1.080000e+02, 375 iterations, 0.31 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     108.0000000  108.00000  0.00%     -    1s
+
+Explored 0 nodes (375 simplex iterations) in 1.13 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 108 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.080000000000e+02, best bound 1.080000000000e+02, gap 0.0000%
+
+Wrote result file 'dist.sol'
+
+
+Gurobi 7.5.1 (linux64) logging started Thu Oct 26 14:24:56 2017
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 7.5.1 build v7.5.1rc0 (linux64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ./districts.lp
+Reading time = 0.90 seconds
+: 100 rows, 135362 columns, 1353620 nonzeros
+Optimize a model with 100 rows, 135362 columns and 1353620 nonzeros
+Variable types: 0 continuous, 135362 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e+01, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve time: 1.98s
+Presolved: 100 rows, 135362 columns, 1353620 nonzeros
+Variable types: 0 continuous, 135362 integer (135362 binary)
+
+Starting sifting (using dual simplex for sub-problems)...
+
+    Iter     Pivots    Primal Obj      Dual Obj        Time
+       0          0     infinity      0.0000000e+00      4s
+       1        531   7.5956654e+05   2.7041260e+00      4s
+       2       1006   2.9416770e+05   2.7934572e+00      4s
+       3       1292   1.3232145e+05   2.8392099e+00      4s
+       4       1662   4.1226606e+04   2.8860626e+00      5s
+       5       2037   1.5134577e+02   5.7178349e+01      5s
+       6       2618   1.5012001e+02   1.2749398e+02      5s
+       7       3112   1.5000000e+02   1.5000000e+02      5s
+
+Sifting complete
+
+
+Root relaxation: objective 1.500000e+02, 3212 iterations, 0.36 seconds
+Total elapsed time = 6.49s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     150.0000000  150.00000  0.00%     -    8s
+
+Explored 0 nodes (4242 simplex iterations) in 8.33 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 150 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.500000000000e+02, best bound 1.500000000000e+02, gap 0.0000%
+
+Wrote result file 'dist.sol'
+

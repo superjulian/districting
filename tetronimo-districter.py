@@ -50,7 +50,7 @@ def eDist (sq1, sq2):
     return math.sqrt(d)
 
 def mDist (sq1, sq2):
-    return (math.abs(sq1[0] - sq2[0]) + math.abs(sq1[1] -sq2[1]))
+    return (abs(sq1[0] - sq2[0]) + abs(sq1[1] -sq2[1]))
  
 def makeGraph (f):
     graph =  {}
@@ -77,7 +77,6 @@ def makeDistricts (graph, size):
 def dHelp (graph, size, districts, unusable, district, x, y):
     if size == 1:
         district.add((x,y))
-        print (district)
         districts.add(frozenset(district))
         district.remove((x,y))
     else:
@@ -94,16 +93,52 @@ def cost (graph, district):
             s += mDist(center, square)
         return s
 
-    min (district, key = lambda c : cost(c))
+    return min (map (costHelp, district))
+def nameD (district):
+    string="d"
+    for t in sorted(district):
+        string+=str(t[0])+str(t[1])
+    return string
+def outputGurobi(graph, districts):
+    string ="Minimize"
+    counter = 0
+    out = open("districts.lp", "w")
+    for district in districts:
+        string += "\n+" + str (cost(graph, district)) + " " +nameD(district)
+    out.write(string)
+    string = "\nSubject To"
+    for square in graph.keys():
+        for district in districts:
+            if square in district:
+                string += "\n+ " +nameD(district)
+        string+=" = 1\n"
+    #for d in districts:
+    #   string+="\n+ d" + str(id(d))
+    #string+=" = \n"
+    out.write(string)
+    string = "Bounds"
+    for d in districts:
+        string += "\n0 <= "+nameD(d) + " <= 1"
+    string += "\nIntegers"
+    for d in districts:
+        string += "\n"+nameD(d)
+    string += "\nend"
+    out.write(string)
+    out.close()
 
 
 
-f = field(2, 2)
+f = field(10, 10)
 g = makeGraph(f)
-d = makeDistricts (g, 4) 
-print (f)
+d = makeDistricts (g, 10) 
+#print (f)
+#for district in d:
+#    print (district, "cost:", cost(g, district))
+print (len(d))
+outputGurobi(g, d)
+
 #print (g)
-print (d)
+#print (d)
 
 #for l in d:
 #    print (l)
