@@ -1890,3 +1890,727 @@ Wrote result file 'dist.sol'
  17388 12825 infeasible   62               -  121.09201      -  48.1  275s
  18223 13464  126.80952   40   44          -  121.10768      -  48.1  280s
  18726 13844  121.32435   29   94          -  121.11804      -  48.0  285s
+ 19341 14266 infeasible   50               -  121.13873      -  48.0  291s
+ 19742 14567  121.95489   28   52          -  121.14698      -  48.0  295s
+ 20377 15076  123.03571   34   35          -  121.15089      -  47.9  301s
+ 20860 15446  123.40843   31   87          -  121.15471      -  47.9  305s
+ 21374 15837  127.01099   48   30          -  121.15945      -  47.9  311s
+ 21924 16218  122.78734   29   65          -  121.17075      -  47.7  316s
+ 22598 16727  128.57143   44   28          -  121.19048      -  47.7  321s
+ 23380 17341  123.06122   33   48          -  121.19875      -  47.6  326s
+ 23995 17810  124.27273   38   41          -  121.20896      -  47.7  330s
+ 24582 18249  125.66369   36   57          -  121.21366      -  47.7  335s
+ 25224 18718  135.10714   44   51          -  121.22581      -  47.8  340s
+ 25764 19155  128.76190   45   26          -  121.23158      -  47.9  345s
+ 26457 19669  126.23214   43   45          -  121.23891      -  48.1  351s
+ 27192 20225  124.96144   32   95          -  121.25570      -  48.1  355s
+ 28053 20872  122.27495   26   70          -  121.26772      -  47.9  360s
+ 28813 21496  123.42857   38   40          -  121.27618      -  47.9  365s
+ 29315 21919  124.77356   38   76          -  121.28045      -  47.9  370s
+ 30079 22487  122.22241   27   69          -  121.29052      -  47.9  375s
+ 31068 23240  122.23512   31   77          -  121.30769      -  47.9  381s
+ 31760 23749  123.76484   30   64          -  121.31279      -  47.9  385s
+ 32465 24276  125.92857   37   19          -  121.32286      -  48.0  390s
+ 32953 24626  123.74257   29   69          -  121.32603      -  48.1  395s
+ 33846 25325  127.60661   47   58          -  121.33159      -  48.2  401s
+ 34499 25811  130.71429   54   41          -  121.33778      -  48.4  406s
+ 35164 26292  125.42857   37   50          -  121.34162      -  48.4  410s
+ 35746 26726  122.95156   30   85          -  121.34856      -  48.6  415s
+ 36259 27138  124.45238   33   60          -  121.35034      -  48.7  420s
+ 36675 27449  123.87097   27   62          -  121.35254      -  48.7  425s
+ 37525 28087  126.34042   44   65          -  121.36129      -  49.0  430s
+ 38060 28493  124.35467   32   67          -  121.36477      -  49.1  435s
+ 38648 28955  122.99860   27   69          -  121.36874      -  49.2  440s
+ 39262 29445  125.86735   38   54          -  121.37288      -  49.3  445s
+ 40125 30093  122.99536   31   70          -  121.38364      -  49.4  451s
+ 40768 30600  123.66460   25   60          -  121.39105      -  49.4  455s
+ 41367 31055  127.80579   42   74          -  121.40003      -  49.5  460s
+ 42238 31725  126.17411   40   64          -  121.41084      -  49.6  467s
+ 42565 31965  125.27551   40   69          -  121.41663      -  49.7  470s
+ 43142 32402  127.94643   42   56          -  121.42306      -  49.7  475s
+ 43949 33052  129.60714   56   33          -  121.42832      -  49.8  483s
+ 44241 33270  127.27473   48   43          -  121.42857      -  49.8  485s
+ 45064 33870  122.84107   27   74          -  121.44095      -  49.8  491s
+ 45593 34297  126.00000   38   34          -  121.44909      -  49.9  495s
+ 46243 34764  123.91429   30   49          -  121.45604      -  49.9  500s
+ 46899 35253  124.74771   31   49          -  121.46350      -  50.0  505s
+ 47592 35785  123.37250   30   55          -  121.47665      -  50.0  510s
+ 48288 36302  124.69388   31   57          -  121.48548      -  50.0  515s
+ 49100 36866  124.17143   31   42          -  121.49553      -  50.0  520s
+ 49725 37348  127.03190   43   63          -  121.50914      -  50.0  525s
+ 50536 37973  136.19048   45   48          -  121.51648      -  50.1  531s
+ 51195 38486 infeasible   62               -  121.52105      -  50.2  538s
+ 51636 38811 infeasible   54               -  121.52659      -  50.2  541s
+ 52192 39225  125.00000   36   57          -  121.53160      -  50.3  545s
+ 52877 39731  132.57143   53   15          -  121.53575      -  50.4  550s
+ 53553 40258  129.57143   46   27          -  121.54010      -  50.4  555s
+ 54345 40846  122.58147   27   75          -  121.54656      -  50.4  560s
+ 55273 41560  124.58884   36   65          -  121.55200      -  50.5  566s
+ 55857 42018  124.63492   32   61          -  121.55590      -  50.5  571s
+ 56680 42608  125.61501   29   67          -  121.55915      -  50.5  575s
+ 57282 43097  127.68571   41   57          -  121.56630      -  50.5  580s
+ 58253 43816  141.80952   58   32          -  121.57821      -  50.5  585s
+ 58703 44151 infeasible   48               -  121.58406      -  50.5  590s
+ 59462 44657  123.57143   33   40          -  121.59188      -  50.4  595s
+ 60388 45392  123.45152   29   76          -  121.60176      -  50.5  601s
+ 60905 45746  124.55695   32   64          -  121.60743      -  50.5  605s
+ 61899 46502  125.91667   28   41          -  121.61044      -  50.5  611s
+ 62723 47118  129.03571   42   21          -  121.62361      -  50.5  615s
+ 63630 47772  124.62097   29   42          -  121.63308      -  50.5  620s
+ 64287 48255  122.85854   30   83          -  121.63799      -  50.5  625s
+ 65137 48902  127.01429   44   37          -  121.64876      -  50.5  630s
+ 65891 49478  126.21429   45   27          -  121.65679      -  50.5  637s
+ 66290 49786  125.94643   37   55          -  121.66167      -  50.5  641s
+ 66715 50119  125.00000   42   47          -  121.66659      -  50.5  646s
+ 67152 50445  123.35880   34   57          -  121.67340      -  50.5  650s
+ 67825 50880  124.56362   28   67          -  121.67694      -  50.4  656s
+ 68244 51205  124.39818   26   71          -  121.68082      -  50.4  660s
+ 68948 51770 infeasible   61               -  121.68303      -  50.4  666s
+ 69526 52160  133.00000   45   12          -  121.68796      -  50.3  670s
+ 69879 52438  132.34694   56   47          -  121.69175      -  50.3  675s
+ 70552 52944  130.61905   50   45          -  121.69483      -  50.3  681s
+ 70993 53251  123.12599   30   71          -  121.69643      -  50.2  685s
+ 71525 53659  129.57143   45   18          -  121.70192      -  50.2  690s
+ 72187 54170  124.39184   30   57          -  121.70889      -  50.2  696s
+ 72732 54562  122.84520   27   83          -  121.71183      -  50.1  700s
+ 73133 54859  122.68175   29   78          -  121.71429      -  50.1  707s
+ 73612 55238  137.85714   57   20          -  121.71615      -  50.0  711s
+ 74030 55511  130.83333   44   42          -  121.72150      -  50.0  715s
+ 74620 55953  127.14286   36   40          -  121.72599      -  50.0  721s
+ 74990 56241  124.67319   34   63          -  121.72760      -  50.0  726s
+ 75385 56547  131.75596   44   65          -  121.73117      -  50.1  730s
+ 76005 56960  124.09286   41   47          -  121.73377      -  50.0  736s
+ 76404 57259  123.21537   33   68          -  121.73689      -  50.0  741s
+ 76808 57557  124.59776   34   73          -  121.74124      -  50.0  745s
+ 77423 58039 infeasible   47               -  121.74669      -  50.0  751s
+ 77848 58353  129.44286   36   44          -  121.74898      -  50.0  755s
+ 78461 58803  124.57796   35   70          -  121.75623      -  50.0  762s
+ 78971 59163  127.19805   36   58          -  121.75938      -  49.9  767s
+ 79359 59424  123.07281   30   53          -  121.76600      -  49.9  771s
+ 79822 59787  123.99471   27   73          -  121.76720      -  49.9  776s
+ 80288 60113  125.56883   33   59          -  121.77047      -  49.9  781s
+ 80550 60334  123.31500   32   80          -  121.77143      -  49.9  785s
+ 80947 60631 infeasible   52               -  121.77317      -  49.8  790s
+ 81556 61077  134.61905   53   30          -  121.77482      -  49.8  796s
+ 81992 61388  123.32013   26   92          -  121.77649      -  49.8  801s
+ 82443 61726  123.75682   28   66          -  121.77919      -  49.8  805s
+ 82930 62081  126.26341   41   79          -  121.78530      -  49.8  811s
+ 83284 62340  123.57143   37   26          -  121.78623      -  49.8  816s
+ 83738 62671  122.68300   26   77          -  121.79187      -  49.8  820s
+ 84169 63026  129.83012   42   62          -  121.79283      -  49.8  825s
+ 84916 63552  123.70458   29   96          -  121.79681      -  49.8  832s
+ 85231 63763  123.26531   32   62          -  121.79796      -  49.8  836s
+ 85623 64070  128.50595   45   45          -  121.79962      -  49.8  841s
+ 86078 64436  130.45089   49   43          -  121.80109      -  49.8  845s
+ 86844 64989  125.92593   33   41          -  121.80952      -  49.7  852s
+ 87375 65361  126.29338   39   66          -  121.81347      -  49.7  856s
+ 87797 65663  126.97802   39   77          -  121.81544      -  49.7  862s
+ 87939 65777  125.56122   34   58          -  121.81610      -  49.7  865s
+ 88676 66319  134.45536   46   43          -  121.82091      -  49.7  871s
+ 89127 66684  122.49485   29   68          -  121.82446      -  49.7  876s
+ 89674 67101 infeasible   61               -  121.82904      -  49.7  881s
+ 90093 67409  127.39048   37   34          -  121.83168      -  49.7  885s
+ 90836 67951  125.57915   29   55          -  121.83662      -  49.6  892s
+ 91363 68340  126.48352   43   56          -  121.83810      -  49.6  897s
+ 91847 68709  126.10075   37   51          -  121.83999      -  49.6  901s
+ 92324 69070  126.45089   37   39          -  121.84571      -  49.6  906s
+ 92729 69341  131.42857   36   29          -  121.84663      -  49.6  910s
+ 93340 69785  133.61905   49   36          -  121.85088      -  49.6  917s
+ 93859 70165  126.87857   32   53          -  121.85443      -  49.5  921s
+ 94371 70523  124.23292   32   74          -  121.85670      -  49.5  926s
+ 94909 70932  129.24845   43   46          -  121.85967      -  49.5  931s
+ 95225 71183  123.15416   32   72          -  121.86209      -  49.5  935s
+ 95681 71535  124.91071   33   64          -  121.86338      -  49.5  940s
+ 96372 72036  126.08271   36   64          -  121.86685      -  49.4  946s
+ 96802 72350  123.69047   30   90          -  121.87025      -  49.5  951s
+ 97338 72760  129.38095   36   30          -  121.87395      -  49.4  955s
+ 97857 73129  124.39286   33   29          -  121.87789      -  49.4  960s
+ 98606 73718  124.30952   27   67          -  121.88033      -  49.4  966s
+ 99008 74026  127.02857   44   32          -  121.88145      -  49.4  970s
+ 99396 74293  126.13571   38   64          -  121.88274      -  49.4  975s
+ 100108 74837  123.02463   31   66          -  121.89015      -  49.4  981s
+ 100677 75213  123.50292   29   65          -  121.89334      -  49.3  985s
+ 101257 75642  127.14286   42   23          -  121.89592      -  49.3  990s
+ 102010 76173  127.44286   43   41          -  121.89960      -  49.3  997s
+ 102511 76535  125.85714   47   30          -  121.90339      -  49.2 1003s
+ 102807 76760 infeasible   51               -  121.90409      -  49.2 1005s
+ 103258 77070  127.85714   38   28          -  121.90712      -  49.2 1010s
+ 104012 77592  123.55865   27   78          -  121.90940      -  49.2 1016s
+ 104451 77918  124.14286   32   34          -  121.91155      -  49.2 1021s
+ 104975 78287  123.54964   28   63          -  121.91480      -  49.1 1026s
+ 105464 78673  123.72040   31   80          -  121.91554      -  49.1 1030s
+ 106100 79175 infeasible   45               -  121.91874      -  49.1 1036s
+ 106582 79490  123.61224   27   75          -  121.92179      -  49.1 1041s
+ 106986 79780  124.15894   28   59          -  121.92547      -  49.1 1045s
+ 107449 80117  123.16668   29   84          -  121.93040      -  49.1 1050s
+ 108184 80655  122.65714   30   69          -  121.93550      -  49.0 1057s
+ 108667 81002  125.11697   27   60          -  121.93900      -  49.0 1061s
+ 109201 81367  125.07143   30   32          -  121.94211      -  49.0 1066s
+ 109646 81709  125.24341   32   67          -  121.94546      -  49.0 1070s
+ 109956 81956  128.04202   38   69          -  121.94740      -  49.0 1076s
+ 110492 82373  130.50000   52   23          -  121.95152      -  49.0 1080s
+ 111060 82777  122.87685   26   88          -  121.95378      -  49.0 1085s
+ 111792 83316  122.82467   29   80          -  121.95748      -  48.9 1092s
+ 112338 83703 infeasible   61               -  121.96158      -  48.9 1096s
+ 112777 83999  126.20060   32   68          -  121.96385      -  48.9 1100s
+ 113186 84303  126.43582   45   69          -  121.96544      -  48.9 1105s
+ 113973 84865  125.47808   36   57          -  121.97199      -  48.9 1112s
+ 114517 85294  124.84615   25   46          -  121.97333      -  48.8 1116s
+ 115059 85666  123.82174   32   49          -  121.97586      -  48.8 1120s
+ 115532 86010  126.00000   33   27          -  121.97759      -  48.8 1125s
+ 116353 86644  124.53854   35   77          -  121.98068      -  48.7 1131s
+ 116833 86993  124.26623   36   67          -  121.98214      -  48.7 1136s
+ 117043 87146  125.60548   37   51          -  121.98467      -  48.7 1140s
+ 117738 87677  126.06856   37   75          -  121.98765      -  48.7 1146s
+ 118157 87985  139.33333   66   32          -  121.98928      -  48.7 1151s
+ 118668 88377  123.85977   30   91          -  121.99252      -  48.7 1155s
+ 119107 88719  123.14194   25   94          -  121.99305      -  48.7 1160s
+ 119506 89020  124.18663   30   76          -  121.99513      -  48.7 1166s
+ 119841 89256  125.88916   32   54          -  121.99592      -  48.7 1171s
+ 120316 89566  127.83838   33   72          -  121.99838      -  48.7 1175s
+ 120817 89961  125.65535   43   62          -  122.00000      -  48.7 1180s
+ 121596 90538  124.85714   37   31          -  122.00225      -  48.6 1186s
+ 122027 90855  124.77679   33   45          -  122.00696      -  48.6 1190s
+ 122491 91204  125.16484   27   67          -  122.01061      -  48.6 1197s
+ 122924 91534  124.58534   32   71          -  122.01527      -  48.6 1201s
+ 123423 91892  125.05675   26   80          -  122.01858      -  48.6 1206s
+ 123796 92193  129.63915   41   58          -  122.02041      -  48.6 1211s
+ 124223 92507  126.28571   37   30          -  122.02426      -  48.6 1215s
+ 124665 92828  127.40476   39   40          -  122.02551      -  48.6 1222s
+ 125122 93173  123.89708   31   64          -  122.02757      -  48.6 1226s
+
+Gurobi 7.5.1 (linux64) logging started Thu Nov  9 13:56:14 2017
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 7.5.1 build v7.5.1rc0 (linux64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ./districts.lp
+Reading time = 0.00 seconds
+: 0 rows, 0 columns, 0 nonzeros
+Optimize a model with 0 rows, 0 columns and 0 nonzeros
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective  0.000000000e+00
+
+Wrote result file 'dist.sol'
+
+
+Gurobi 7.5.1 (linux64) logging started Thu Nov  9 13:56:24 2017
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 7.5.1 build v7.5.1rc0 (linux64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ./districts.lp
+Reading time = 0.00 seconds
+: 0 rows, 0 columns, 0 nonzeros
+Optimize a model with 0 rows, 0 columns and 0 nonzeros
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective  0.000000000e+00
+
+Wrote result file 'dist.sol'
+
+
+Gurobi 7.5.1 (linux64) logging started Thu Nov  9 13:57:16 2017
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 7.5.1 build v7.5.1rc0 (linux64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ./districts.lp
+Reading time = 0.01 seconds
+: 49 rows, 3656 columns, 25592 nonzeros
+Optimize a model with 49 rows, 3656 columns and 25592 nonzeros
+Variable types: 0 continuous, 3656 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 332 columns
+Presolve time: 0.15s
+Presolved: 49 rows, 3324 columns, 23268 nonzeros
+Variable types: 0 continuous, 3324 integer (3324 binary)
+
+Root relaxation: objective 5.923913e+01, 200 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   59.23913    0   43          -   59.23913      -     -    0s
+     0     0   59.50000    0   27          -   59.50000      -     -    0s
+H    0     0                      62.0000000   59.50000  4.03%     -    0s
+     0     0   59.66667    0   21   62.00000   59.66667  3.76%     -    0s
+     0     0   59.66667    0   35   62.00000   59.66667  3.76%     -    0s
+     0     0   59.66667    0   48   62.00000   59.66667  3.76%     -    0s
+     0     0   59.95113    0   56   62.00000   59.95113  3.30%     -    0s
+     0     0   60.00000    0   32   62.00000   60.00000  3.23%     -    0s
+     0     0   60.04239    0   57   62.00000   60.04239  3.16%     -    0s
+     0     0   60.04239    0   35   62.00000   60.04239  3.16%     -    0s
+     0     0   60.04239    0   50   62.00000   60.04239  3.16%     -    0s
+     0     0   60.04239    0   50   62.00000   60.04239  3.16%     -    0s
+     0     0   60.04239    0   18   62.00000   60.04239  3.16%     -    0s
+     0     0   60.04348    0   50   62.00000   60.04348  3.16%     -    0s
+     0     0   60.04878    0   54   62.00000   60.04878  3.15%     -    0s
+     0     0   60.05263    0   52   62.00000   60.05263  3.14%     -    0s
+     0     0   60.13780    0   60   62.00000   60.13780  3.00%     -    0s
+     0     0   60.17341    0   53   62.00000   60.17341  2.95%     -    0s
+     0     0   60.18445    0   67   62.00000   60.18445  2.93%     -    0s
+     0     0   60.18620    0   65   62.00000   60.18620  2.93%     -    0s
+     0     0   60.20588    0   61   62.00000   60.20588  2.89%     -    0s
+     0     0   60.20796    0   72   62.00000   60.20796  2.89%     -    0s
+     0     0   60.21839    0   72   62.00000   60.21839  2.87%     -    0s
+H    0     0                      61.0000000   60.21839  1.28%     -    0s
+     0     0   60.21839    0   72   61.00000   60.21839  1.28%     -    0s
+
+Cutting planes:
+  Clique: 32
+  MIR: 2
+  Mod-K: 6
+
+Explored 1 nodes (1134 simplex iterations) in 0.57 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 61 62 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.100000000000e+01, best bound 6.100000000000e+01, gap 0.0000%
+
+Wrote result file 'dist.sol'
+
+
+Gurobi 7.5.1 (linux64) logging started Thu Nov  9 13:58:00 2017
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 7.5.1 build v7.5.1rc0 (linux64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ./districts.lp
+Reading time = 0.00 seconds
+: 70 rows, 1266 columns, 6330 nonzeros
+Optimize a model with 70 rows, 1266 columns and 6330 nonzeros
+Variable types: 0 continuous, 1266 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e+00, 6e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 80 columns
+Presolve time: 0.03s
+Presolved: 70 rows, 1186 columns, 5930 nonzeros
+Variable types: 0 continuous, 1186 integer (1186 binary)
+
+Root relaxation: objective 7.000000e+01, 283 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   70.00000    0   20          -   70.00000      -     -    0s
+H    0     0                      74.0000000   70.00000  5.41%     -    0s
+     0     0   70.00000    0   54   74.00000   70.00000  5.41%     -    0s
+H    0     0                      70.0000000   70.00000  0.00%     -    0s
+
+Cutting planes:
+  Clique: 5
+  Mod-K: 1
+
+Explored 1 nodes (465 simplex iterations) in 0.08 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 70 74 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+01, best bound 7.000000000000e+01, gap 0.0000%
+
+Wrote result file 'dist.sol'
+
+
+Gurobi 7.5.1 (linux64) logging started Thu Nov  9 14:01:04 2017
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 7.5.1 build v7.5.1rc0 (linux64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ./districts.lp
+Reading time = 0.00 seconds
+: 70 rows, 1266 columns, 6330 nonzeros
+Optimize a model with 70 rows, 1266 columns and 6330 nonzeros
+Variable types: 0 continuous, 1266 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e+00, 6e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 80 columns
+Presolve time: 0.03s
+Presolved: 70 rows, 1186 columns, 5930 nonzeros
+Variable types: 0 continuous, 1186 integer (1186 binary)
+
+Root relaxation: objective 7.000000e+01, 283 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   70.00000    0   20          -   70.00000      -     -    0s
+H    0     0                      74.0000000   70.00000  5.41%     -    0s
+     0     0   70.00000    0   54   74.00000   70.00000  5.41%     -    0s
+H    0     0                      70.0000000   70.00000  0.00%     -    0s
+
+Cutting planes:
+  Clique: 5
+  Mod-K: 1
+
+Explored 1 nodes (465 simplex iterations) in 0.09 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 70 74 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+01, best bound 7.000000000000e+01, gap 0.0000%
+
+Wrote result file 'dist.sol'
+
+
+Gurobi 7.5.1 (linux64) logging started Thu Nov  9 14:01:27 2017
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 7.5.1 build v7.5.1rc0 (linux64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ./districts.lp
+Reading time = 0.00 seconds
+: 70 rows, 1266 columns, 6330 nonzeros
+Optimize a model with 70 rows, 1266 columns and 6330 nonzeros
+Variable types: 0 continuous, 1266 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e+00, 6e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 80 columns
+Presolve time: 0.03s
+Presolved: 70 rows, 1186 columns, 5930 nonzeros
+Variable types: 0 continuous, 1186 integer (1186 binary)
+
+Root relaxation: objective 7.000000e+01, 283 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   70.00000    0   20          -   70.00000      -     -    0s
+H    0     0                      74.0000000   70.00000  5.41%     -    0s
+     0     0   70.00000    0   54   74.00000   70.00000  5.41%     -    0s
+H    0     0                      70.0000000   70.00000  0.00%     -    0s
+
+Cutting planes:
+  Clique: 5
+  Mod-K: 1
+
+Explored 1 nodes (465 simplex iterations) in 0.09 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 70 74 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+01, best bound 7.000000000000e+01, gap 0.0000%
+
+Wrote result file 'dist.sol'
+
+
+Gurobi 7.5.1 (linux64) logging started Thu Nov  9 14:02:21 2017
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 7.5.1 build v7.5.1rc0 (linux64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ./districts.lp
+Reading time = 0.00 seconds
+: 70 rows, 1266 columns, 6330 nonzeros
+Optimize a model with 70 rows, 1266 columns and 6330 nonzeros
+Variable types: 0 continuous, 1266 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e+00, 6e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 80 columns
+Presolve time: 0.03s
+Presolved: 70 rows, 1186 columns, 5930 nonzeros
+Variable types: 0 continuous, 1186 integer (1186 binary)
+
+Root relaxation: objective 7.000000e+01, 283 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   70.00000    0   20          -   70.00000      -     -    0s
+H    0     0                      74.0000000   70.00000  5.41%     -    0s
+     0     0   70.00000    0   54   74.00000   70.00000  5.41%     -    0s
+H    0     0                      70.0000000   70.00000  0.00%     -    0s
+
+Cutting planes:
+  Clique: 5
+  Mod-K: 1
+
+Explored 1 nodes (465 simplex iterations) in 0.09 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 70 74 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+01, best bound 7.000000000000e+01, gap 0.0000%
+
+Wrote result file 'dist.sol'
+
+
+Gurobi 7.5.1 (linux64) logging started Thu Nov  9 14:02:49 2017
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 7.5.1 build v7.5.1rc0 (linux64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ./districts.lp
+Reading time = 0.02 seconds
+: 225 rows, 5323 columns, 26615 nonzeros
+Optimize a model with 225 rows, 5323 columns and 26615 nonzeros
+Variable types: 0 continuous, 5323 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e+00, 6e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 90 columns
+Presolve time: 0.06s
+Presolved: 225 rows, 5233 columns, 26165 nonzeros
+Variable types: 0 continuous, 5233 integer (5233 binary)
+
+Root relaxation: objective 2.250000e+02, 1261 iterations, 0.09 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  225.00000    0   99          -  225.00000      -     -    0s
+H    0     0                     232.0000000  225.00000  3.02%     -    0s
+     0     0  225.00000    0  189  232.00000  225.00000  3.02%     -    0s
+     0     0  225.00000    0  180  232.00000  225.00000  3.02%     -    0s
+     0     0  225.00000    0   79  232.00000  225.00000  3.02%     -    0s
+     0     0  225.00000    0   85  232.00000  225.00000  3.02%     -    0s
+     0     0  225.00000    0   56  232.00000  225.00000  3.02%     -    1s
+H    0     0                     225.0000000  225.00000  0.00%     -    1s
+     0     0  225.00000    0   56  225.00000  225.00000  0.00%     -    1s
+
+Cutting planes:
+  Clique: 20
+  Mod-K: 2
+
+Explored 1 nodes (6986 simplex iterations) in 1.89 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 225 232 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.250000000000e+02, best bound 2.250000000000e+02, gap 0.0000%
+
+Wrote result file 'dist.sol'
+
+
+Gurobi 7.5.1 (linux64) logging started Thu Nov  9 14:04:12 2017
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 7.5.1 build v7.5.1rc0 (linux64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ./districts.lp
+Reading time = 0.01 seconds
+: 180 rows, 4108 columns, 20540 nonzeros
+Optimize a model with 180 rows, 4108 columns and 20540 nonzeros
+Variable types: 0 continuous, 4108 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e+00, 6e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 87 columns
+Presolve time: 0.06s
+Presolved: 180 rows, 4021 columns, 20105 nonzeros
+Variable types: 0 continuous, 4021 integer (4021 binary)
+
+Root relaxation: objective 1.800000e+02, 970 iterations, 0.06 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  180.00000    0   87          -  180.00000      -     -    0s
+     0     0  180.00000    0  143          -  180.00000      -     -    0s
+*    0     0               0     180.0000000  180.00000  0.00%     -    0s
+
+Cutting planes:
+  Clique: 22
+  MIR: 1
+  Mod-K: 4
+
+Explored 1 nodes (4308 simplex iterations) in 0.45 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 180 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.800000000000e+02, best bound 1.800000000000e+02, gap 0.0000%
+
+Wrote result file 'dist.sol'
+
+
+Gurobi 7.5.1 (linux64) logging started Thu Nov  9 14:04:19 2017
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 7.5.1 build v7.5.1rc0 (linux64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ./districts.lp
+Reading time = 0.04 seconds
+: 180 rows, 9717 columns, 58302 nonzeros
+Optimize a model with 180 rows, 9717 columns and 58302 nonzeros
+Variable types: 0 continuous, 9717 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [7e+00, 9e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 242 columns
+Presolve time: 0.19s
+Presolved: 180 rows, 9475 columns, 56850 nonzeros
+Variable types: 0 continuous, 9475 integer (9475 binary)
+
+Root relaxation: objective 2.100000e+02, 424 iterations, 0.05 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  210.00000    0  176          -  210.00000      -     -    0s
+H    0     0                     210.0000000  210.00000  0.00%     -    0s
+
+Explored 1 nodes (1028 simplex iterations) in 0.50 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 210 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.100000000000e+02, best bound 2.100000000000e+02, gap 0.0000%
+
+Wrote result file 'dist.sol'
+
+
+Gurobi 7.5.1 (linux64) logging started Thu Nov  9 14:04:26 2017
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 7.5.1 build v7.5.1rc0 (linux64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ./districts.lp
+Reading time = 0.12 seconds
+: 180 rows, 23480 columns, 164360 nonzeros
+Optimize a model with 180 rows, 23480 columns and 164360 nonzeros
+Variable types: 0 continuous, 23480 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 0 rows and 482 columns
+Presolve time: 0.69s
+Presolved: 180 rows, 22998 columns, 160986 nonzeros
+Variable types: 0 continuous, 22998 integer (22998 binary)
+
+Root relaxation: objective 2.099838e+02, 1104 iterations, 0.41 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  209.98380    0  156          -  209.98380      -     -    1s
+     0     0  210.48504    0  166          -  210.48504      -     -    3s
+
+Gurobi 7.5.1 (linux64) logging started Thu Nov  9 14:05:22 2017
+
+Academic license - for non-commercial use only
+
+Gurobi Optimizer version 7.5.1 build v7.5.1rc0 (linux64)
+Copyright (c) 2017, Gurobi Optimization, Inc.
+
+Read LP format model from file ./districts.lp
+Reading time = 1.11 seconds
+: 100 rows, 135362 columns, 1353620 nonzeros
+Optimize a model with 100 rows, 135362 columns and 1353620 nonzeros
+Variable types: 0 continuous, 135362 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e+01, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve time: 1.75s
+Presolved: 100 rows, 135362 columns, 1353620 nonzeros
+Variable types: 0 continuous, 135362 integer (135362 binary)
+
+Starting sifting (using dual simplex for sub-problems)...
+
+    Iter     Pivots    Primal Obj      Dual Obj        Time
+       0          0     infinity      0.0000000e+00      4s
+       1        531   7.5956654e+05   2.7041260e+00      4s
+       2       1006   2.9416770e+05   2.7934572e+00      4s
+       3       1292   1.3232145e+05   2.8392099e+00      4s
+       4       1662   4.1226606e+04   2.8860626e+00      4s
+       5       2037   1.5134577e+02   5.7178349e+01      4s
+       6       2618   1.5012001e+02   1.2749398e+02      4s
+       7       3112   1.5000000e+02   1.5000000e+02      4s
+
+Sifting complete
+
+
+Root relaxation: objective 1.500000e+02, 3212 iterations, 0.35 seconds
+Total elapsed time = 6.05s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     150.0000000  150.00000  0.00%     -    7s
+
+Explored 0 nodes (4242 simplex iterations) in 7.85 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 150 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.500000000000e+02, best bound 1.500000000000e+02, gap 0.0000%
+
+Wrote result file 'dist.sol'
+

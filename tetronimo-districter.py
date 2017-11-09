@@ -4,19 +4,30 @@ import sys
 import math
 import subprocess
 sys.setrecursionlimit(15000)
+class square:
+    def __init__ (self, x, y, label = "u"):
+        self.x = x
+        self.y = y
+        self.label = label
+    def setLabel(self, label):
+        old = self.label
+        self.label = label
+        return self.label
+    def __str__ (self):
+        return str(self.label)
 
 class field:
     def __init__(self, w, h, seed = None):
-        self.table = [["u" for j in range (h)] for i in range (w)]
+        self.table = [[square(i, j) for j in range (h)] for i in range (w)]
         self.w = w
         self.h = h
         self.generate (0, 0)
     
     def generate (self, x, y):
         if 0 <=  x < self.w and 0 <= y < self.h:
-            if self.table[x][y] == "u":
+            if self.table[x][y].label == "u":
                 if random.random() > -1 or x == y == 0:
-                    self.table[x][y]="X"
+                    self.table[x][y].setLabel("X")
                     self.generate(x, y + 1)
                     self.generate(x, y - 1)
                     self.generate(x + 1, y)
@@ -26,7 +37,7 @@ class field:
                     #        if i!=j:
                     #            self.generate(x+i, y+j)
                 else:
-                    self.table[x][y] = " "
+                    self.table[x][y].setLabel(" ")
 
     def hieght (self):
         return self.h
@@ -39,9 +50,9 @@ class field:
         for y in range (self.h):
             for x in range (self.w):
                 space = self.table[x][y]
-                if space == "u":
+                if space.label == "u":
                     space = " "
-                string = string + space
+                string = string + str(space)
             string += "\n"
         return string
 
@@ -59,12 +70,12 @@ def makeGraph (f):
     table = f.getTable()
     for y in range (f.hieght()):
         for x in range (f.width()):
-            if table[x][y] == "X":
+            if table[x][y].label == "X":
                 graph[(x, y)] = []
                 for i in [-1, 1]:
-                    if 0 <= x + i < f.w and table[x + i] [y] == "X":
+                    if 0 <= x + i < f.w and table[x + i] [y].label == "X":
                         graph[(x,y)].append((x+i, y))
-                    if 0 <= y + i < f.h and table[x] [y+i] == "X":
+                    if 0 <= y + i < f.h and table[x] [y+i].label == "X":
                         graph[(x,y)].append((x, y + i))
     return graph
 
@@ -87,7 +98,8 @@ def dHelp (graph, size, districts, unusable, district, x, y):
             if neighbor not in district and neighbor not in unusable:
                 dHelp(graph, size - 1, districts, unusable, district, neighbor[0], neighbor[1])
         district.remove((x, y))
-
+#def evilCost(graph, district):
+#    for 
 def cost (graph, district):
     def costHelp (center):
         s = 0
@@ -96,11 +108,13 @@ def cost (graph, district):
         return s
 
     return min (map (costHelp, district))
+
 def nameD (district):
     string="d"
     for t in sorted(district):
         string+=str(t[0])+","+str(t[1])+";"
     return string
+
 def outputGurobi(graph, districts):
     string ="Minimize"
     counter = 0
@@ -140,7 +154,7 @@ def readGurobi(w, h):
                 tabel [int(x)] [int(y)] = dist
     for y in range (h):
         for x in range (w):
-            print (tabel [x][y], end="")
+            print ('{:>3}'.format(tabel [x][y]), end="")
         print ()
 
 
@@ -154,6 +168,7 @@ def main():
     g = makeGraph(f)
     d = makeDistricts (g, size) 
     print (len(d))
+    print (f)
     outputGurobi(g, d)
     subprocess.call(["gurobi_cl ResultFile=dist.sol ./districts.lp"], shell=True)
     readGurobi(width, height)
