@@ -2,7 +2,9 @@
 import random
 import sys
 import math
+import subprocess
 sys.setrecursionlimit(15000)
+
 class field:
     def __init__(self, w, h, seed = None):
         self.table = [["u" for j in range (h)] for i in range (w)]
@@ -97,7 +99,7 @@ def cost (graph, district):
 def nameD (district):
     string="d"
     for t in sorted(district):
-        string+=str(t[0])+str(t[1])
+        string+=str(t[0])+","+str(t[1])+";"
     return string
 def outputGurobi(graph, districts):
     string ="Minimize"
@@ -126,20 +128,35 @@ def outputGurobi(graph, districts):
     out.write(string)
     out.close()
 
+def readGurobi(w, h):
+    solution = open ("dist.sol", "r")
+    tabel = [["0" for i in range(h)] for j in range (w)]
+    dist = 0
+    for line in solution:
+        if line[-2] == "1":
+            dist +=1
+            for sq in line[1:-1].split(";")[:-1]:
+                x,y = sq.split(",")
+                tabel [int(x)] [int(y)] = dist
+    for y in range (h):
+        for x in range (w):
+            print (tabel [x][y], end="")
+        print ()
 
 
-f = field(10, 10)
-g = makeGraph(f)
-d = makeDistricts (g, 10) 
-#print (f)
-#for district in d:
-#    print (district, "cost:", cost(g, district))
-print (len(d))
-outputGurobi(g, d)
 
-#print (g)
-#print (d)
+def main():
+    if len(sys.argv) < 4:
+        print ("Usuge: <width> <hieght> <district size>")
+        sys.exit(1)
+    width, height, size = map ( int, sys.argv[1:4])
+    f = field(width, height)
+    g = makeGraph(f)
+    d = makeDistricts (g, size) 
+    print (len(d))
+    outputGurobi(g, d)
+    subprocess.call(["gurobi_cl ResultFile=dist.sol ./districts.lp"], shell=True)
+    readGurobi(width, height)
 
-#for l in d:
-#    print (l)
+main()
 
